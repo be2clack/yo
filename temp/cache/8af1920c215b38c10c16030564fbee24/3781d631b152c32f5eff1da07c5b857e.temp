@@ -1,0 +1,321 @@
+<?php return array (
+  'time' => 1717874278,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Тип предложения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-predlozheniya',
+          'ads_filters_required' => '1',
+        ),
+        17 => 
+        array (
+          'ads_filters_id' => '17',
+          'ads_filters_name' => 'Ремонт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '13',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'remont',
+          'ads_filters_required' => '0',
+        ),
+        33 => 
+        array (
+          'ads_filters_id' => '33',
+          'ads_filters_name' => 'Количество этажей',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '15',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-etazhey',
+          'ads_filters_required' => '0',
+        ),
+        52 => 
+        array (
+          'ads_filters_id' => '52',
+          'ads_filters_name' => 'Тип магазина',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '43',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-magazina',
+          'ads_filters_required' => '0',
+        ),
+        53 => 
+        array (
+          'ads_filters_id' => '53',
+          'ads_filters_name' => 'Тип сделки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '44',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-sdelki',
+          'ads_filters_required' => '0',
+        ),
+        54 => 
+        array (
+          'ads_filters_id' => '54',
+          'ads_filters_name' => 'Площадь, м²',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '45',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-m2',
+          'ads_filters_required' => '0',
+        ),
+        359 => 
+        array (
+          'ads_filters_id' => '359',
+          'ads_filters_name' => 'Услуги риэлтора',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '308',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'uslugi-rieltora',
+          'ads_filters_required' => '1',
+        ),
+        360 => 
+        array (
+          'ads_filters_id' => '360',
+          'ads_filters_name' => 'Коммуникации',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '309',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kommunikacii',
+          'ads_filters_required' => '0',
+        ),
+        363 => 
+        array (
+          'ads_filters_id' => '363',
+          'ads_filters_name' => 'Расположение',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '312',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'raspolozhenie',
+          'ads_filters_required' => '0',
+        ),
+        364 => 
+        array (
+          'ads_filters_id' => '364',
+          'ads_filters_name' => 'Удобства',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '313',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'udobstva',
+          'ads_filters_required' => '0',
+        ),
+        365 => 
+        array (
+          'ads_filters_id' => '365',
+          'ads_filters_name' => 'Паркинг',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '314',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'parking',
+          'ads_filters_required' => '0',
+        ),
+        366 => 
+        array (
+          'ads_filters_id' => '366',
+          'ads_filters_name' => 'Документы',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '315',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'dokumenty',
+          'ads_filters_required' => '0',
+        ),
+        367 => 
+        array (
+          'ads_filters_id' => '367',
+          'ads_filters_name' => 'Рынок, базар',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '316',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'rynok-bazar',
+          'ads_filters_required' => '0',
+        ),
+        370 => 
+        array (
+          'ads_filters_id' => '370',
+          'ads_filters_name' => 'Наличие места',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '319',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'nalichie-mesta',
+          'ads_filters_required' => '0',
+        ),
+        371 => 
+        array (
+          'ads_filters_id' => '371',
+          'ads_filters_name' => 'Тип здания',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '320',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-zdaniya',
+          'ads_filters_required' => '0',
+        ),
+        372 => 
+        array (
+          'ads_filters_id' => '372',
+          'ads_filters_name' => 'Дополнительные параметры',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '321',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'dopolnitelnye-parametry',
+          'ads_filters_required' => '0',
+        ),
+        373 => 
+        array (
+          'ads_filters_id' => '373',
+          'ads_filters_name' => 'Назначение',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '322',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'naznachenie',
+          'ads_filters_required' => '0',
+        ),
+        374 => 
+        array (
+          'ads_filters_id' => '374',
+          'ads_filters_name' => 'Дополнительно',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '323',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'dopolnitelno',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Тип предложения',
+        'ads_filters_type' => 'select',
+      ),
+      17 => 
+      array (
+        'ads_filters_name' => 'Ремонт',
+        'ads_filters_type' => 'select',
+      ),
+      33 => 
+      array (
+        'ads_filters_name' => 'Количество этажей',
+        'ads_filters_type' => 'input',
+      ),
+      52 => 
+      array (
+        'ads_filters_name' => 'Тип магазина',
+        'ads_filters_type' => 'select',
+      ),
+      53 => 
+      array (
+        'ads_filters_name' => 'Тип сделки',
+        'ads_filters_type' => 'select',
+      ),
+      54 => 
+      array (
+        'ads_filters_name' => 'Площадь, м²',
+        'ads_filters_type' => 'input',
+      ),
+      359 => 
+      array (
+        'ads_filters_name' => 'Услуги риэлтора',
+        'ads_filters_type' => 'select',
+      ),
+      360 => 
+      array (
+        'ads_filters_name' => 'Коммуникации',
+        'ads_filters_type' => 'select_multi',
+      ),
+      363 => 
+      array (
+        'ads_filters_name' => 'Расположение',
+        'ads_filters_type' => 'select_multi',
+      ),
+      364 => 
+      array (
+        'ads_filters_name' => 'Удобства',
+        'ads_filters_type' => 'select_multi',
+      ),
+      365 => 
+      array (
+        'ads_filters_name' => 'Паркинг',
+        'ads_filters_type' => 'select_multi',
+      ),
+      366 => 
+      array (
+        'ads_filters_name' => 'Документы',
+        'ads_filters_type' => 'select',
+      ),
+      367 => 
+      array (
+        'ads_filters_name' => 'Рынок, базар',
+        'ads_filters_type' => 'select',
+      ),
+      370 => 
+      array (
+        'ads_filters_name' => 'Наличие места',
+        'ads_filters_type' => 'select',
+      ),
+      371 => 
+      array (
+        'ads_filters_name' => 'Тип здания',
+        'ads_filters_type' => 'select',
+      ),
+      372 => 
+      array (
+        'ads_filters_name' => 'Дополнительные параметры',
+        'ads_filters_type' => 'select_multi',
+      ),
+      373 => 
+      array (
+        'ads_filters_name' => 'Назначение',
+        'ads_filters_type' => 'select_multi',
+      ),
+      374 => 
+      array (
+        'ads_filters_name' => 'Дополнительно',
+        'ads_filters_type' => 'select_multi',
+      ),
+    ),
+  ),
+) ?>

@@ -1,0 +1,32 @@
+<?php return array (
+  'time' => 1717958401,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        76 => 
+        array (
+          'ads_filters_id' => '76',
+          'ads_filters_name' => 'Порода',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '67',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'poroda',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      76 => 
+      array (
+        'ads_filters_name' => 'Порода',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="251" height="172">
+  <defs>
+    <rect id="a" width="101.969" height="140.727" rx="3.92"/>
+    <rect id="c" width="101.969" height="140.727" rx="3.92"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(15.688 15.636)">
+      <mask id="b" fill="#fff">
+        <use xlink:href="#a"/>
+      </mask>
+      <use fill="#FFF" xlink:href="#a"/>
+      <rect width="100.569" height="139.327" x=".7" y=".7" stroke="#EBEBEB" stroke-width="1.4" rx="3.92"/>
+      <path fill="#EBEBEB" d="M101.969 0H0v101.636h101.969zM82.36 109.455H7.843v7.818h74.515zm-37.258 11.727H7.844V129h37.258z" mask="url(#b)"/>
+    </g>
+    <g transform="translate(133.344 15.636)">
+      <mask id="d" fill="#fff">
+        <use xlink:href="#c"/>
+      </mask>
+      <use fill="#FFF" xlink:href="#c"/>
+      <rect width="100.569" height="139.327" x=".7" y=".7" stroke="#EBEBEB" stroke-width="1.4" rx="3.92"/>
+      <path fill="#EBEBEB" d="M101.969 0H0v101.636h101.969zM82.36 109.455H7.843v7.818h74.515zm-37.258 11.727H7.844V129h37.258z" mask="url(#d)"/>
+    </g>
+  </g>
+</svg>

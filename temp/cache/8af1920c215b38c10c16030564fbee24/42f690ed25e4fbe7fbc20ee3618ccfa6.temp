@@ -1,0 +1,151 @@
+<?php return array (
+  'time' => 1717939628,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Тип предложения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-predlozheniya',
+          'ads_filters_required' => '1',
+        ),
+        27 => 
+        array (
+          'ads_filters_id' => '27',
+          'ads_filters_name' => 'Тип участка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '9',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-uchastka',
+          'ads_filters_required' => '1',
+        ),
+        28 => 
+        array (
+          'ads_filters_id' => '28',
+          'ads_filters_name' => 'Площадь участка (соток)',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '10',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-uchastka-sotok',
+          'ads_filters_required' => '0',
+        ),
+        17 => 
+        array (
+          'ads_filters_id' => '17',
+          'ads_filters_name' => 'Ремонт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '13',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'remont',
+          'ads_filters_required' => '0',
+        ),
+        34 => 
+        array (
+          'ads_filters_id' => '34',
+          'ads_filters_name' => 'На срок',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '16',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'na-srok',
+          'ads_filters_required' => '0',
+        ),
+        56 => 
+        array (
+          'ads_filters_id' => '56',
+          'ads_filters_name' => 'Торг',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '17',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'torg',
+          'ads_filters_required' => '0',
+        ),
+        47 => 
+        array (
+          'ads_filters_id' => '47',
+          'ads_filters_name' => 'Бытовая техника',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '38',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'bytovaya-tehnika',
+          'ads_filters_required' => '0',
+        ),
+        359 => 
+        array (
+          'ads_filters_id' => '359',
+          'ads_filters_name' => 'Услуги риэлтора',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '308',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'uslugi-rieltora',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Тип предложения',
+        'ads_filters_type' => 'select',
+      ),
+      27 => 
+      array (
+        'ads_filters_name' => 'Тип участка',
+        'ads_filters_type' => 'select',
+      ),
+      28 => 
+      array (
+        'ads_filters_name' => 'Площадь участка (соток)',
+        'ads_filters_type' => 'input',
+      ),
+      17 => 
+      array (
+        'ads_filters_name' => 'Ремонт',
+        'ads_filters_type' => 'select',
+      ),
+      34 => 
+      array (
+        'ads_filters_name' => 'На срок',
+        'ads_filters_type' => 'select_multi',
+      ),
+      56 => 
+      array (
+        'ads_filters_name' => 'Торг',
+        'ads_filters_type' => 'select',
+      ),
+      47 => 
+      array (
+        'ads_filters_name' => 'Бытовая техника',
+        'ads_filters_type' => 'select_multi',
+      ),
+      359 => 
+      array (
+        'ads_filters_name' => 'Услуги риэлтора',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

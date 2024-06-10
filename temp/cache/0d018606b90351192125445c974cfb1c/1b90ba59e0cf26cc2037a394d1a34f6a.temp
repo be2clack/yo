@@ -1,0 +1,17 @@
+<?php return array (
+  'time' => 1717976015,
+  'data' => 
+  array (
+    'city_id' => '46031',
+    'country_id' => '13',
+    'region_id' => '198',
+    'city_name' => 'Балыкчы',
+    'city_alias' => 'balykchy',
+    'city_count_view' => '0',
+    'city_default' => '0',
+    'city_desc' => '',
+    'city_declination' => '',
+    'city_lat' => '42.28',
+    'city_lng' => '76.11',
+  ),
+) ?>

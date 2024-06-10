@@ -1,0 +1,17 @@
+<?php return array (
+  'time' => 1717976015,
+  'data' => 
+  array (
+    'city_id' => '46029',
+    'country_id' => '13',
+    'region_id' => '198',
+    'city_name' => 'Чолпон-Ата',
+    'city_alias' => 'cholpon-ata',
+    'city_count_view' => '0',
+    'city_default' => '0',
+    'city_desc' => '',
+    'city_declination' => '',
+    'city_lat' => '42.39',
+    'city_lng' => '77.05',
+  ),
+) ?>

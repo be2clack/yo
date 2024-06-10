@@ -1,0 +1,12 @@
+<?php return array (
+  'time' => 1717976015,
+  'data' => 
+  array (
+    'region_id' => '198',
+    'country_id' => '13',
+    'region_name' => 'Иссык-Кульская область',
+    'region_alias' => 'issyk-kulskaya-oblast',
+    'region_desc' => NULL,
+    'region_declination' => NULL,
+  ),
+) ?>

@@ -1,0 +1,134 @@
+<?php return array (
+  'time' => 1717949666,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        121 => 
+        array (
+          'ads_filters_id' => '121',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '113',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        122 => 
+        array (
+          'ads_filters_id' => '122',
+          'ads_filters_name' => 'Тип',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '114',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip',
+          'ads_filters_required' => '1',
+        ),
+        123 => 
+        array (
+          'ads_filters_id' => '123',
+          'ads_filters_name' => 'Возраст',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '115',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vozrast',
+          'ads_filters_required' => '1',
+        ),
+        124 => 
+        array (
+          'ads_filters_id' => '124',
+          'ads_filters_name' => 'Количество блоков',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '116',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-blokov',
+          'ads_filters_required' => '0',
+        ),
+        125 => 
+        array (
+          'ads_filters_id' => '125',
+          'ads_filters_name' => 'Тип колес',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '117',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-koles',
+          'ads_filters_required' => '0',
+        ),
+        126 => 
+        array (
+          'ads_filters_id' => '126',
+          'ads_filters_name' => 'Особенности',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '118',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'osobennosti',
+          'ads_filters_required' => '0',
+        ),
+        127 => 
+        array (
+          'ads_filters_id' => '127',
+          'ads_filters_name' => 'Регулировки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '119',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'regulirovki',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      121 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      122 => 
+      array (
+        'ads_filters_name' => 'Тип',
+        'ads_filters_type' => 'select',
+      ),
+      123 => 
+      array (
+        'ads_filters_name' => 'Возраст',
+        'ads_filters_type' => 'select',
+      ),
+      124 => 
+      array (
+        'ads_filters_name' => 'Количество блоков',
+        'ads_filters_type' => 'select',
+      ),
+      125 => 
+      array (
+        'ads_filters_name' => 'Тип колес',
+        'ads_filters_type' => 'select',
+      ),
+      126 => 
+      array (
+        'ads_filters_name' => 'Особенности',
+        'ads_filters_type' => 'select',
+      ),
+      127 => 
+      array (
+        'ads_filters_name' => 'Регулировки',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

@@ -1,0 +1,593 @@
+<?php return array (
+  'time' => 1717956610,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        3 => 
+        array (
+          'ads_filters_id' => '3',
+          'ads_filters_name' => 'Тип квартиры',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-kvartiri',
+          'ads_filters_required' => '1',
+        ),
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Тип предложения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-predlozheniya',
+          'ads_filters_required' => '1',
+        ),
+        4 => 
+        array (
+          'ads_filters_id' => '4',
+          'ads_filters_name' => 'Количество комнат',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '3',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-komnat',
+          'ads_filters_required' => '1',
+        ),
+        5 => 
+        array (
+          'ads_filters_id' => '5',
+          'ads_filters_name' => 'Площадь (м2)',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '4',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-m2',
+          'ads_filters_required' => '1',
+        ),
+        7 => 
+        array (
+          'ads_filters_id' => '7',
+          'ads_filters_name' => 'Этаж',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '5',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'etazh',
+          'ads_filters_required' => '0',
+        ),
+        8 => 
+        array (
+          'ads_filters_id' => '8',
+          'ads_filters_name' => 'Удобства в квартире',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '6',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'udobstva-v-kvartire',
+          'ads_filters_required' => '0',
+        ),
+        11 => 
+        array (
+          'ads_filters_id' => '11',
+          'ads_filters_name' => 'До остановки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '7',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'do-ostanovki',
+          'ads_filters_required' => '0',
+        ),
+        12 => 
+        array (
+          'ads_filters_id' => '12',
+          'ads_filters_name' => 'Площадь кухни (м2)',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '8',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-kuhni-m2',
+          'ads_filters_required' => '0',
+        ),
+        26 => 
+        array (
+          'ads_filters_id' => '26',
+          'ads_filters_name' => 'Материал стен',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '8',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'material-sten',
+          'ads_filters_required' => '0',
+        ),
+        13 => 
+        array (
+          'ads_filters_id' => '13',
+          'ads_filters_name' => 'Этажность дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '9',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'etazhnost-doma',
+          'ads_filters_required' => '0',
+        ),
+        14 => 
+        array (
+          'ads_filters_id' => '14',
+          'ads_filters_name' => 'Тип дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '10',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-doma',
+          'ads_filters_required' => '0',
+        ),
+        15 => 
+        array (
+          'ads_filters_id' => '15',
+          'ads_filters_name' => 'Санузлы',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '11',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sanuzli',
+          'ads_filters_required' => '0',
+        ),
+        16 => 
+        array (
+          'ads_filters_id' => '16',
+          'ads_filters_name' => 'Лифт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '12',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'lift',
+          'ads_filters_required' => '0',
+        ),
+        30 => 
+        array (
+          'ads_filters_id' => '30',
+          'ads_filters_name' => 'Отопление',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '12',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'otoplenie',
+          'ads_filters_required' => '0',
+        ),
+        17 => 
+        array (
+          'ads_filters_id' => '17',
+          'ads_filters_name' => 'Ремонт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '13',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'remont',
+          'ads_filters_required' => '0',
+        ),
+        18 => 
+        array (
+          'ads_filters_id' => '18',
+          'ads_filters_name' => 'Серия',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '14',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'seriya',
+          'ads_filters_required' => '0',
+        ),
+        33 => 
+        array (
+          'ads_filters_id' => '33',
+          'ads_filters_name' => 'Количество этажей',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '15',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-etazhey',
+          'ads_filters_required' => '0',
+        ),
+        56 => 
+        array (
+          'ads_filters_id' => '56',
+          'ads_filters_name' => 'Торг',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '17',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'torg',
+          'ads_filters_required' => '0',
+        ),
+        43 => 
+        array (
+          'ads_filters_id' => '43',
+          'ads_filters_name' => 'Мебель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '34',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'mebel',
+          'ads_filters_required' => '0',
+        ),
+        44 => 
+        array (
+          'ads_filters_id' => '44',
+          'ads_filters_name' => 'Депозит, сом',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '35',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'depozit-som',
+          'ads_filters_required' => '0',
+        ),
+        47 => 
+        array (
+          'ads_filters_id' => '47',
+          'ads_filters_name' => 'Бытовая техника',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '38',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'bytovaya-tehnika',
+          'ads_filters_required' => '0',
+        ),
+        50 => 
+        array (
+          'ads_filters_id' => '50',
+          'ads_filters_name' => 'Балкон, лоджия',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '41',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'balkon-lodzhiya',
+          'ads_filters_required' => '0',
+        ),
+        53 => 
+        array (
+          'ads_filters_id' => '53',
+          'ads_filters_name' => 'Тип сделки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '44',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-sdelki',
+          'ads_filters_required' => '0',
+        ),
+        359 => 
+        array (
+          'ads_filters_id' => '359',
+          'ads_filters_name' => 'Услуги риэлтора',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '308',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'uslugi-rieltora',
+          'ads_filters_required' => '1',
+        ),
+        360 => 
+        array (
+          'ads_filters_id' => '360',
+          'ads_filters_name' => 'Коммуникации',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '309',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kommunikacii',
+          'ads_filters_required' => '0',
+        ),
+        394 => 
+        array (
+          'ads_filters_id' => '394',
+          'ads_filters_name' => 'Строительная компания',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '343',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'stroitelnaya-kompaniya',
+          'ads_filters_required' => '0',
+        ),
+        395 => 
+        array (
+          'ads_filters_id' => '395',
+          'ads_filters_name' => 'Год постройки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '344',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'god-postroyki',
+          'ads_filters_required' => '0',
+        ),
+        396 => 
+        array (
+          'ads_filters_id' => '396',
+          'ads_filters_name' => 'Ремонт',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '345',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'remont',
+          'ads_filters_required' => '0',
+        ),
+        397 => 
+        array (
+          'ads_filters_id' => '397',
+          'ads_filters_name' => 'Окна (направленность)',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '346',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'okna-napravlennost',
+          'ads_filters_required' => '0',
+        ),
+        398 => 
+        array (
+          'ads_filters_id' => '398',
+          'ads_filters_name' => 'Мебель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '347',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'mebel',
+          'ads_filters_required' => '0',
+        ),
+        399 => 
+        array (
+          'ads_filters_id' => '399',
+          'ads_filters_name' => 'Правоустанавливающие документы',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '348',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'pravoustanavlivayushchie-dokumenty',
+          'ads_filters_required' => '0',
+        ),
+        400 => 
+        array (
+          'ads_filters_id' => '400',
+          'ads_filters_name' => 'Защита территории',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '349',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'zashchita-territorii',
+          'ads_filters_required' => '0',
+        ),
+        401 => 
+        array (
+          'ads_filters_id' => '401',
+          'ads_filters_name' => 'Дополнительно',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '350',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'dopolnitelno',
+          'ads_filters_required' => '0',
+        ),
+        404 => 
+        array (
+          'ads_filters_id' => '404',
+          'ads_filters_name' => 'Мебель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '353',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'mebel',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      3 => 
+      array (
+        'ads_filters_name' => 'Тип квартиры',
+        'ads_filters_type' => 'select',
+      ),
+      6 => 
+      array (
+        'ads_filters_name' => 'Тип предложения',
+        'ads_filters_type' => 'select',
+      ),
+      4 => 
+      array (
+        'ads_filters_name' => 'Количество комнат',
+        'ads_filters_type' => 'select',
+      ),
+      5 => 
+      array (
+        'ads_filters_name' => 'Площадь (м2)',
+        'ads_filters_type' => 'input',
+      ),
+      7 => 
+      array (
+        'ads_filters_name' => 'Этаж',
+        'ads_filters_type' => 'select',
+      ),
+      8 => 
+      array (
+        'ads_filters_name' => 'Удобства в квартире',
+        'ads_filters_type' => 'select_multi',
+      ),
+      11 => 
+      array (
+        'ads_filters_name' => 'До остановки',
+        'ads_filters_type' => 'select',
+      ),
+      12 => 
+      array (
+        'ads_filters_name' => 'Площадь кухни (м2)',
+        'ads_filters_type' => 'input',
+      ),
+      26 => 
+      array (
+        'ads_filters_name' => 'Материал стен',
+        'ads_filters_type' => 'select_multi',
+      ),
+      13 => 
+      array (
+        'ads_filters_name' => 'Этажность дома',
+        'ads_filters_type' => 'input',
+      ),
+      14 => 
+      array (
+        'ads_filters_name' => 'Тип дома',
+        'ads_filters_type' => 'select',
+      ),
+      15 => 
+      array (
+        'ads_filters_name' => 'Санузлы',
+        'ads_filters_type' => 'select',
+      ),
+      16 => 
+      array (
+        'ads_filters_name' => 'Лифт',
+        'ads_filters_type' => 'select',
+      ),
+      30 => 
+      array (
+        'ads_filters_name' => 'Отопление',
+        'ads_filters_type' => 'select',
+      ),
+      17 => 
+      array (
+        'ads_filters_name' => 'Ремонт',
+        'ads_filters_type' => 'select',
+      ),
+      18 => 
+      array (
+        'ads_filters_name' => 'Серия',
+        'ads_filters_type' => 'select',
+      ),
+      33 => 
+      array (
+        'ads_filters_name' => 'Количество этажей',
+        'ads_filters_type' => 'input',
+      ),
+      56 => 
+      array (
+        'ads_filters_name' => 'Торг',
+        'ads_filters_type' => 'select',
+      ),
+      43 => 
+      array (
+        'ads_filters_name' => 'Мебель',
+        'ads_filters_type' => 'select',
+      ),
+      44 => 
+      array (
+        'ads_filters_name' => 'Депозит, сом',
+        'ads_filters_type' => 'input',
+      ),
+      47 => 
+      array (
+        'ads_filters_name' => 'Бытовая техника',
+        'ads_filters_type' => 'select_multi',
+      ),
+      50 => 
+      array (
+        'ads_filters_name' => 'Балкон, лоджия',
+        'ads_filters_type' => 'select_multi',
+      ),
+      53 => 
+      array (
+        'ads_filters_name' => 'Тип сделки',
+        'ads_filters_type' => 'select',
+      ),
+      359 => 
+      array (
+        'ads_filters_name' => 'Услуги риэлтора',
+        'ads_filters_type' => 'select',
+      ),
+      360 => 
+      array (
+        'ads_filters_name' => 'Коммуникации',
+        'ads_filters_type' => 'select_multi',
+      ),
+      394 => 
+      array (
+        'ads_filters_name' => 'Строительная компания',
+        'ads_filters_type' => 'select',
+      ),
+      395 => 
+      array (
+        'ads_filters_name' => 'Год постройки',
+        'ads_filters_type' => 'select',
+      ),
+      396 => 
+      array (
+        'ads_filters_name' => 'Ремонт',
+        'ads_filters_type' => 'select',
+      ),
+      397 => 
+      array (
+        'ads_filters_name' => 'Окна (направленность)',
+        'ads_filters_type' => 'select_multi',
+      ),
+      398 => 
+      array (
+        'ads_filters_name' => 'Мебель',
+        'ads_filters_type' => 'select_multi',
+      ),
+      399 => 
+      array (
+        'ads_filters_name' => 'Правоустанавливающие документы',
+        'ads_filters_type' => 'select_multi',
+      ),
+      400 => 
+      array (
+        'ads_filters_name' => 'Защита территории',
+        'ads_filters_type' => 'select_multi',
+      ),
+      401 => 
+      array (
+        'ads_filters_name' => 'Дополнительно',
+        'ads_filters_type' => 'select_multi',
+      ),
+      404 => 
+      array (
+        'ads_filters_name' => 'Мебель',
+        'ads_filters_type' => 'select_multi',
+      ),
+    ),
+  ),
+) ?>

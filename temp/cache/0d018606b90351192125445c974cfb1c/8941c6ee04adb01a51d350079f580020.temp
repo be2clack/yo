@@ -1,0 +1,17 @@
+<?php return array (
+  'time' => 1717976015,
+  'data' => 
+  array (
+    'city_id' => '46025',
+    'country_id' => '13',
+    'region_id' => '196',
+    'city_name' => 'Бишкек',
+    'city_alias' => 'bishkek',
+    'city_count_view' => '11614',
+    'city_default' => '1',
+    'city_desc' => '',
+    'city_declination' => '',
+    'city_lat' => '42.875969',
+    'city_lng' => '74.603701',
+  ),
+) ?>

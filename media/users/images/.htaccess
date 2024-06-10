@@ -1,0 +1,30 @@
+
+              RemoveHandler .phtml
+              RemoveHandler .php
+              RemoveHandler .php3
+              RemoveHandler .php4
+              RemoveHandler .php5
+              RemoveHandler .php6
+              RemoveHandler .php7
+              RemoveHandler .php8
+              RemoveHandler .cgi
+              RemoveHandler .exe
+              RemoveHandler .pl
+              RemoveHandler .asp
+              RemoveHandler .aspx
+              RemoveHandler .shtml
+              RemoveHandler .py
+              RemoveHandler .fpl
+              RemoveHandler .jsp
+              RemoveHandler .htm
+              RemoveHandler .html
+              RemoveHandler .wml
+              RemoveHandler .sh
+              RemoveHandler .pcgi
+              RemoveHandler .scr
+
+              <Files ~ "\.php|\.phtml|\.cgi|\.exe|\.pl|\.asp|\.aspx|\.shtml|\.py|\.fpl|\.jsp|\.htm|\.html|\.wml|\.sh|\.pcgi|\.scr">
+              Order allow,deny
+              Deny from all
+              </Files>
+         

@@ -1,0 +1,66 @@
+<?php return array (
+  'time' => 1717959131,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        116 => 
+        array (
+          'ads_filters_id' => '116',
+          'ads_filters_name' => 'Марка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '108',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka',
+          'ads_filters_required' => '1',
+        ),
+        117 => 
+        array (
+          'ads_filters_id' => '117',
+          'ads_filters_name' => 'Группа',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '109',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'gruppa',
+          'ads_filters_required' => '1',
+        ),
+        118 => 
+        array (
+          'ads_filters_id' => '118',
+          'ads_filters_name' => 'Крепление',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '110',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kreplenie',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      116 => 
+      array (
+        'ads_filters_name' => 'Марка',
+        'ads_filters_type' => 'select',
+      ),
+      117 => 
+      array (
+        'ads_filters_name' => 'Группа',
+        'ads_filters_type' => 'select',
+      ),
+      118 => 
+      array (
+        'ads_filters_name' => 'Крепление',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

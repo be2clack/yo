@@ -1,0 +1,202 @@
+<?php return array (
+  'time' => 1717976999,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        550 => 
+        array (
+          'ads_filters_id' => '550',
+          'ads_filters_name' => 'Цена за сутки',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '381',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'cena-za-sutki',
+          'ads_filters_required' => '0',
+        ),
+        551 => 
+        array (
+          'ads_filters_id' => '551',
+          'ads_filters_name' => 'Город / село Иссык-Куля',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '382',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'gorod-selo-issyk-kulya',
+          'ads_filters_required' => '0',
+        ),
+        552 => 
+        array (
+          'ads_filters_id' => '552',
+          'ads_filters_name' => 'Центр Отдыха',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '383',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'centr-otdyha',
+          'ads_filters_required' => '0',
+        ),
+        553 => 
+        array (
+          'ads_filters_id' => '553',
+          'ads_filters_name' => 'Название объекта',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input_text',
+          'ads_filters_position' => '384',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'nazvanie-obekta',
+          'ads_filters_required' => '0',
+        ),
+        554 => 
+        array (
+          'ads_filters_id' => '554',
+          'ads_filters_name' => 'Тип размещения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '385',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-razmeshcheniya',
+          'ads_filters_required' => '1',
+        ),
+        555 => 
+        array (
+          'ads_filters_id' => '555',
+          'ads_filters_name' => 'Тип объекта',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '386',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-obekta',
+          'ads_filters_required' => '0',
+        ),
+        556 => 
+        array (
+          'ads_filters_id' => '556',
+          'ads_filters_name' => 'Количество мест',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '387',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-mest',
+          'ads_filters_required' => '0',
+        ),
+        557 => 
+        array (
+          'ads_filters_id' => '557',
+          'ads_filters_name' => 'Удобства на территории',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '388',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'udobstva-na-territorii',
+          'ads_filters_required' => '0',
+        ),
+        558 => 
+        array (
+          'ads_filters_id' => '558',
+          'ads_filters_name' => 'Удобства в номере',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '389',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'udobstva-v-nomere',
+          'ads_filters_required' => '0',
+        ),
+        559 => 
+        array (
+          'ads_filters_id' => '559',
+          'ads_filters_name' => 'Расстояние до пляжа',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '390',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'rasstoyanie-do-plyazha',
+          'ads_filters_required' => '0',
+        ),
+        560 => 
+        array (
+          'ads_filters_id' => '560',
+          'ads_filters_name' => 'Питание',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '391',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'pitanie',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      550 => 
+      array (
+        'ads_filters_name' => 'Цена за сутки',
+        'ads_filters_type' => 'select',
+      ),
+      551 => 
+      array (
+        'ads_filters_name' => 'Город / село Иссык-Куля',
+        'ads_filters_type' => 'select',
+      ),
+      552 => 
+      array (
+        'ads_filters_name' => 'Центр Отдыха',
+        'ads_filters_type' => 'select',
+      ),
+      553 => 
+      array (
+        'ads_filters_name' => 'Название объекта',
+        'ads_filters_type' => 'input_text',
+      ),
+      554 => 
+      array (
+        'ads_filters_name' => 'Тип размещения',
+        'ads_filters_type' => 'select',
+      ),
+      555 => 
+      array (
+        'ads_filters_name' => 'Тип объекта',
+        'ads_filters_type' => 'select',
+      ),
+      556 => 
+      array (
+        'ads_filters_name' => 'Количество мест',
+        'ads_filters_type' => 'select_multi',
+      ),
+      557 => 
+      array (
+        'ads_filters_name' => 'Удобства на территории',
+        'ads_filters_type' => 'select_multi',
+      ),
+      558 => 
+      array (
+        'ads_filters_name' => 'Удобства в номере',
+        'ads_filters_type' => 'select_multi',
+      ),
+      559 => 
+      array (
+        'ads_filters_name' => 'Расстояние до пляжа',
+        'ads_filters_type' => 'select',
+      ),
+      560 => 
+      array (
+        'ads_filters_name' => 'Питание',
+        'ads_filters_type' => 'select_multi',
+      ),
+    ),
+  ),
+) ?>

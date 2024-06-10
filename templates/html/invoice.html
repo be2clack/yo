@@ -1,0 +1,131 @@
+﻿<html lang="ru" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	
+	<style type="text/css">
+
+	@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext');
+	body {font-family: 'Roboto', sans-serif; font-size: 14px;}
+	table {margin: 0 0 15px 0;width: 100%;border-collapse: collapse;border-spacing: 0;}		
+	table th {padding: 5px;font-weight: bold;}        
+	table td {padding: 5px;}	
+	.header {margin: 0 0 0 0;padding: 0 0 15px 0;font-size: 12px;line-height: 12px;text-align: center;}
+	h1 {margin: 0 0 10px 0;padding: 10px 0;border-bottom: 2px solid #000;font-weight: bold;font-size: 20px;}
+		
+	.details td {padding: 3px 2px;border: 1px solid #000000;font-size: 12px;line-height: 12px;vertical-align: top;}
+ 
+	.contract th {padding: 3px 0;vertical-align: top;text-align: left;font-size: 13px;line-height: 15px;}	
+	.contract td {padding: 3px 0;}		
+ 
+	.list thead, .list tbody  {border: 2px solid #000; width: 100%; }
+	.list thead th {padding: 4px 0;border: 1px solid #000;vertical-align: middle;text-align: center;}	
+	.list tbody td {padding: 0 2px;border: 1px solid #000;vertical-align: middle;font-size: 11px;line-height: 13px;}	
+	.list tfoot th {padding: 3px 2px;border: none;text-align: right;}	
+ 
+	.total {margin: 0 0 20px 0;padding: 0 0 10px 0;border-bottom: 2px solid #000;}	
+	.total p {margin: 0;padding: 0;}
+		
+	.sign {position: relative;}
+	.sign table {width: 60%;}
+	.sign th {padding: 40px 0 0 0;text-align: left;}
+	.sign td {padding: 40px 0 0 0;border-bottom: 1px solid #000;text-align: right;font-size: 12px;}
+	.sign-1{ width: 110px; }
+	.printing{ width: 120px; }
+	</style>
+</head>
+<body>
+	<table class="details">
+		<tbody>
+			<tr>
+				<td width="50%">Поставщик (Supplier)</td>
+				<td width="50%">{supplier_company_name}</td>
+			</tr>
+			<tr>
+				<td width="50%">ИНН (Identif.No.) </td>
+				<td width="50%">{supplier_company_inn}</td>
+			</tr>
+			<tr>
+				<td width="50%">Банк (Bank)</td>
+				<td width="50%">{supplier_bank}</td>
+			</tr>			
+			<tr>
+				<td width="50%">Р/с (Settl.Acc.)</td>
+				<td width="50%">{supplier_bank_payment_account}</td>
+			</tr>
+			<tr>
+				<td width="50%">Корр.счет</td>
+				<td width="50%">{supplier_bank_correspondent_account}</td>
+			</tr>			
+			<tr>
+				<td width="50%">Бик</td>
+				<td width="50%">{supplier_bank_bik}</td>
+			</tr>												
+		</tbody>
+	</table>
+ 
+	<h1>Счет (Invoice) № {invoice_number} от {create_time}</h1>
+ 
+	<table class="contract">
+		<tbody>
+			<tr>
+				<td width="15%">Поставщик (Supplier):</td>
+				<th width="85%">{supplier_inline}</th>
+			</tr>
+			<tr>
+				<td>Плательщик (Customer):</td>
+				<th>{customer_inline}</th>
+			</tr>
+		</tbody>
+	</table>
+ 
+	<table class="list">
+		<thead>
+			<tr>
+				<th >Наименование (Description)</th>
+				<th >Кол-во (Q-ty)</th>
+				<th >Цена (Price), {currency}</th>
+				<th >Сумма (Amount), {currency}</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+			<tr>
+				<td align="left">Пополнение баланса</td>
+				<td align="right">1</td>
+				<td align="left">{amount}</td>
+				<td align="right">{total}</td>
+			</tr>
+ 
+		</tbody>
+	</table>
+	
+	<table class="contract">
+		<tbody>
+			<tr>
+				<th width="100%" align="right" >
+					Итого: {total} {currency}
+				</th>
+			</tr>
+			<tr>
+				<th width="100%" align="right" >
+					В том числе НДС: {nds}
+				</th>
+			</tr>
+		</tbody>
+	</table>
+
+		<div class="sign-1" style="position: absolute; top: 440px; left: 200px;" >{supplier_image_signature}</div>
+		<div class="printing" style="position: absolute; top: 430px; left: 280px;" >{supplier_image_print}</div>
+
+		<div class="sign" >
+			<table>
+				<tbody>
+					<tr>
+						<th width="30%">Генеральный директор</th>
+						<td width="70%">{supplier_fio}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+</body>
+</html>

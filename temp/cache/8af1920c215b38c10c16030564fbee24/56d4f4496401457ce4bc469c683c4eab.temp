@@ -1,0 +1,202 @@
+<?php return array (
+  'time' => 1717939653,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        6 => 
+        array (
+          'ads_filters_id' => '6',
+          'ads_filters_name' => 'Тип предложения',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '2',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-predlozheniya',
+          'ads_filters_required' => '1',
+        ),
+        21 => 
+        array (
+          'ads_filters_id' => '21',
+          'ads_filters_name' => 'Тип дома',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '3',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-doma',
+          'ads_filters_required' => '1',
+        ),
+        24 => 
+        array (
+          'ads_filters_id' => '24',
+          'ads_filters_name' => 'Площадь дома, м²',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '6',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-doma-m',
+          'ads_filters_required' => '1',
+        ),
+        27 => 
+        array (
+          'ads_filters_id' => '27',
+          'ads_filters_name' => 'Тип участка',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '9',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-uchastka',
+          'ads_filters_required' => '1',
+        ),
+        28 => 
+        array (
+          'ads_filters_id' => '28',
+          'ads_filters_name' => 'Площадь участка (соток)',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '10',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'ploshchad-uchastka-sotok',
+          'ads_filters_required' => '0',
+        ),
+        31 => 
+        array (
+          'ads_filters_id' => '31',
+          'ads_filters_name' => 'Количество спален',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '13',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-spalen',
+          'ads_filters_required' => '0',
+        ),
+        32 => 
+        array (
+          'ads_filters_id' => '32',
+          'ads_filters_name' => 'Гараж',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '14',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'garazh',
+          'ads_filters_required' => '0',
+        ),
+        33 => 
+        array (
+          'ads_filters_id' => '33',
+          'ads_filters_name' => 'Количество этажей',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '15',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'kolichestvo-etazhey',
+          'ads_filters_required' => '0',
+        ),
+        34 => 
+        array (
+          'ads_filters_id' => '34',
+          'ads_filters_name' => 'На срок',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '16',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'na-srok',
+          'ads_filters_required' => '0',
+        ),
+        56 => 
+        array (
+          'ads_filters_id' => '56',
+          'ads_filters_name' => 'Торг',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '17',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'torg',
+          'ads_filters_required' => '0',
+        ),
+        44 => 
+        array (
+          'ads_filters_id' => '44',
+          'ads_filters_name' => 'Депозит, сом',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '35',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'depozit-som',
+          'ads_filters_required' => '0',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      6 => 
+      array (
+        'ads_filters_name' => 'Тип предложения',
+        'ads_filters_type' => 'select',
+      ),
+      21 => 
+      array (
+        'ads_filters_name' => 'Тип дома',
+        'ads_filters_type' => 'select',
+      ),
+      24 => 
+      array (
+        'ads_filters_name' => 'Площадь дома, м²',
+        'ads_filters_type' => 'input',
+      ),
+      27 => 
+      array (
+        'ads_filters_name' => 'Тип участка',
+        'ads_filters_type' => 'select',
+      ),
+      28 => 
+      array (
+        'ads_filters_name' => 'Площадь участка (соток)',
+        'ads_filters_type' => 'input',
+      ),
+      31 => 
+      array (
+        'ads_filters_name' => 'Количество спален',
+        'ads_filters_type' => 'input',
+      ),
+      32 => 
+      array (
+        'ads_filters_name' => 'Гараж',
+        'ads_filters_type' => 'select',
+      ),
+      33 => 
+      array (
+        'ads_filters_name' => 'Количество этажей',
+        'ads_filters_type' => 'input',
+      ),
+      34 => 
+      array (
+        'ads_filters_name' => 'На срок',
+        'ads_filters_type' => 'select_multi',
+      ),
+      56 => 
+      array (
+        'ads_filters_name' => 'Торг',
+        'ads_filters_type' => 'select',
+      ),
+      44 => 
+      array (
+        'ads_filters_name' => 'Депозит, сом',
+        'ads_filters_type' => 'input',
+      ),
+    ),
+  ),
+) ?>

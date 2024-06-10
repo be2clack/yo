@@ -1,0 +1,239 @@
+<?php return array (
+  'time' => 1717960074,
+  'data' => 
+  array (
+    'id_parent' => 
+    array (
+      0 => 
+      array (
+        90 => 
+        array (
+          'ads_filters_id' => '90',
+          'ads_filters_name' => 'Марка авто',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '81',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'marka-avto',
+          'ads_filters_required' => '1',
+        ),
+        306 => 
+        array (
+          'ads_filters_id' => '306',
+          'ads_filters_name' => 'Привод',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '291',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'privod',
+          'ads_filters_required' => '0',
+        ),
+        308 => 
+        array (
+          'ads_filters_id' => '308',
+          'ads_filters_name' => 'Коробка передач',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '292',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'korobka-peredach',
+          'ads_filters_required' => '0',
+        ),
+        309 => 
+        array (
+          'ads_filters_id' => '309',
+          'ads_filters_name' => 'Тип кузова',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '293',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'tip-kuzova',
+          'ads_filters_required' => '0',
+        ),
+        310 => 
+        array (
+          'ads_filters_id' => '310',
+          'ads_filters_name' => 'Пробег (км.)',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '294',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'probeg-km',
+          'ads_filters_required' => '0',
+        ),
+        311 => 
+        array (
+          'ads_filters_id' => '311',
+          'ads_filters_name' => 'Год',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '295',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'god',
+          'ads_filters_required' => '1',
+        ),
+        312 => 
+        array (
+          'ads_filters_id' => '312',
+          'ads_filters_name' => 'Топливо',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select_multi',
+          'ads_filters_position' => '296',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'toplivo',
+          'ads_filters_required' => '0',
+        ),
+        313 => 
+        array (
+          'ads_filters_id' => '313',
+          'ads_filters_name' => 'Мощность, л.с',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '297',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'moshchnost-l-s',
+          'ads_filters_required' => '0',
+        ),
+        314 => 
+        array (
+          'ads_filters_id' => '314',
+          'ads_filters_name' => 'Объем двигателя',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'input',
+          'ads_filters_position' => '298',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'obem-dvigatelya',
+          'ads_filters_required' => '0',
+        ),
+        315 => 
+        array (
+          'ads_filters_id' => '315',
+          'ads_filters_name' => 'Состояние',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '299',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'sostoyanie',
+          'ads_filters_required' => '0',
+        ),
+        316 => 
+        array (
+          'ads_filters_id' => '316',
+          'ads_filters_name' => 'Руль',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '300',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'rul',
+          'ads_filters_required' => '0',
+        ),
+        331 => 
+        array (
+          'ads_filters_id' => '331',
+          'ads_filters_name' => 'VIN код',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '306',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '0',
+          'ads_filters_alias' => 'vin-kod',
+          'ads_filters_required' => '0',
+        ),
+      ),
+      90 => 
+      array (
+        302 => 
+        array (
+          'ads_filters_id' => '302',
+          'ads_filters_name' => 'Модель',
+          'ads_filters_visible' => '1',
+          'ads_filters_type' => 'select',
+          'ads_filters_position' => '82',
+          'ads_filters_podcat' => '1',
+          'ads_filters_id_parent' => '90',
+          'ads_filters_alias' => 'model',
+          'ads_filters_required' => '1',
+        ),
+      ),
+    ),
+    'id' => 
+    array (
+      90 => 
+      array (
+        'ads_filters_name' => 'Марка авто',
+        'ads_filters_type' => 'select',
+      ),
+      302 => 
+      array (
+        'ads_filters_name' => 'Модель',
+        'ads_filters_type' => 'select',
+      ),
+      306 => 
+      array (
+        'ads_filters_name' => 'Привод',
+        'ads_filters_type' => 'select',
+      ),
+      308 => 
+      array (
+        'ads_filters_name' => 'Коробка передач',
+        'ads_filters_type' => 'select',
+      ),
+      309 => 
+      array (
+        'ads_filters_name' => 'Тип кузова',
+        'ads_filters_type' => 'select',
+      ),
+      310 => 
+      array (
+        'ads_filters_name' => 'Пробег (км.)',
+        'ads_filters_type' => 'input',
+      ),
+      311 => 
+      array (
+        'ads_filters_name' => 'Год',
+        'ads_filters_type' => 'input',
+      ),
+      312 => 
+      array (
+        'ads_filters_name' => 'Топливо',
+        'ads_filters_type' => 'select_multi',
+      ),
+      313 => 
+      array (
+        'ads_filters_name' => 'Мощность, л.с',
+        'ads_filters_type' => 'input',
+      ),
+      314 => 
+      array (
+        'ads_filters_name' => 'Объем двигателя',
+        'ads_filters_type' => 'input',
+      ),
+      315 => 
+      array (
+        'ads_filters_name' => 'Состояние',
+        'ads_filters_type' => 'select',
+      ),
+      316 => 
+      array (
+        'ads_filters_name' => 'Руль',
+        'ads_filters_type' => 'select',
+      ),
+      331 => 
+      array (
+        'ads_filters_name' => 'VIN код',
+        'ads_filters_type' => 'select',
+      ),
+    ),
+  ),
+) ?>

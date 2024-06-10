@@ -1,0 +1,12 @@
+<?php return array (
+  'time' => 1717976015,
+  'data' => 
+  array (
+    'region_id' => '196',
+    'country_id' => '13',
+    'region_name' => 'Чуйская область',
+    'region_alias' => 'chuyskaya-oblast',
+    'region_desc' => NULL,
+    'region_declination' => NULL,
+  ),
+) ?>

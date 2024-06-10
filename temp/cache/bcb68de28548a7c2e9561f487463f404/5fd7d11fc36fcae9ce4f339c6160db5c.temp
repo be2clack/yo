@@ -1,0 +1,17 @@
+<?php return array (
+  'time' => 1717976015,
+  'data' => 
+  array (
+    'country_id' => '13',
+    'country_name' => 'Кыргызстан',
+    'country_status' => '1',
+    'country_alias' => 'kyrgyzstan',
+    'country_lat' => '42.875969',
+    'country_lng' => '74.603698',
+    'country_desc' => '',
+    'country_format_phone' => '+996(___)___ ___',
+    'country_code_phone' => 'KG',
+    'country_image' => NULL,
+    'country_declination' => '',
+  ),
+) ?>

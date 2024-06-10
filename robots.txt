@@ -1,0 +1,7 @@
+User-agent: *
+Host: https://mix.kg
+Sitemap: https://mix.kg/sitemap.xml
+Disallow: /media/
+Disallow: /temp/
+Disallow: /templates/
+Disallow: /cp_650b2faddefa3/

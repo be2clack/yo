@@ -1,0 +1,196 @@
+══╡ EXCEPTION CAUGHT BY FOUNDATION LIBRARY ╞═════════════════════
+The following assertion was thrown while dispatching
+notifications for MainProvider:
+setState() or markNeedsBuild() called during build.
+This _InheritedProviderScope<MainProvider?> widget cannot be
+marked as needing to build because the framework is already in
+the process of building widgets. A widget can be marked as
+needing to be built during the build phase only if one of its
+ancestors is currently building. This exception is allowed
+because the framework builds parent widgets before children,
+which means a dirty descendant will always be built. Otherwise,
+the framework might not visit this widget during this build
+phase.
+The widget on which setState() or markNeedsBuild() was called
+was:
+  _InheritedProviderScope<MainProvider?>
+The widget which was currently being built when the offending
+call was made was:
+  Builder
+
+When the exception was thrown, this was the stack:
+#0      Element.markNeedsBuild.<anonymous closure> (package:flutter/src/widgets/framework.dart:5033:9)
+#1      Element.markNeedsBuild (package:flutter/src/widgets/framework.dart:5045:6)
+#2      _InheritedProviderScopeElement.markNeedsNotifyDependents (package:provider/src/inherited_provider.dart:577:5)
+#3      ChangeNotifier.notifyListeners (package:flutter/src/foundation/change_notifier.dart:433:24)
+#4      MainProvider.clearSearchAdsQuery (package:yoapp/backend/providers/MainProvider.dart:184:5)
+#5      _SearchAdsScreenState.initState (package:yoapp/ui/screens/SearchAdsScreen.dart:36:36)
+#6      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5602:55)
+#7      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5447:5)
+...     Normal element mounting (154 frames)
+#161    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4326:16)
+#162    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:6871:36)
+#163    Element.updateChild (package:flutter/src/widgets/framework.dart:3837:18)
+#164    Element.updateChildren (package:flutter/src/widgets/framework.dart:4024:32)
+#165    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6896:17)
+#166    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#167    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#168    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#169    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#170    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#171    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#172    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#173    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#174    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#175    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#176    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#177    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#178    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#179    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:105:11)
+#180    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#181    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#182    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#183    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#184    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#185    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#186    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#187    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#188    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#189    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:105:11)
+#190    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#191    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#192    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#193    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#194    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#195    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#196    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#197    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#198    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#199    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#200    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#201    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#202    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#203    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#204    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#205    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#206    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#207    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#208    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#209    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#210    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#211    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#216    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2895:19)
+#217    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:984:21)
+#218    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:457:5)
+#219    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1325:15)
+#220    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1255:9)
+#221    SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1113:5)
+#222    _invoke (dart:ui/hooks.dart:312:13)
+#223    PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:383:5)
+#224    _drawFrame (dart:ui/hooks.dart:283:31)
+
+The MainProvider sending notification was:
+  Instance of 'MainProvider'
+═════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FOUNDATION LIBRARY ╞═════════════════════
+The following assertion was thrown while dispatching
+notifications for MainProvider:
+setState() or markNeedsBuild() called during build.
+This _InheritedProviderScope<MainProvider?> widget cannot be
+marked as needing to build because the framework is already in
+the process of building widgets. A widget can be marked as
+needing to be built during the build phase only if one of its
+ancestors is currently building. This exception is allowed
+because the framework builds parent widgets before children,
+which means a dirty descendant will always be built. Otherwise,
+the framework might not visit this widget during this build
+phase.
+The widget on which setState() or markNeedsBuild() was called
+was:
+  _InheritedProviderScope<MainProvider?>
+The widget which was currently being built when the offending
+call was made was:
+  Builder
+
+When the exception was thrown, this was the stack:
+#0      Element.markNeedsBuild.<anonymous closure> (package:flutter/src/widgets/framework.dart:5033:9)
+#1      Element.markNeedsBuild (package:flutter/src/widgets/framework.dart:5045:6)
+#2      _InheritedProviderScopeElement.markNeedsNotifyDependents (package:provider/src/inherited_provider.dart:577:5)
+#3      ChangeNotifier.notifyListeners (package:flutter/src/foundation/change_notifier.dart:433:24)
+#4      MainProvider.clearSearchAdsQuery (package:yoapp/backend/providers/MainProvider.dart:184:5)
+#5      _SearchAdsScreenState.initState (package:yoapp/ui/screens/SearchAdsScreen.dart:36:36)
+#6      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5602:55)
+#7      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5447:5)
+...     Normal element mounting (154 frames)
+#161    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4326:16)
+#162    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:6871:36)
+#163    Element.updateChild (package:flutter/src/widgets/framework.dart:3837:18)
+#164    Element.updateChildren (package:flutter/src/widgets/framework.dart:4024:32)
+#165    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6896:17)
+#166    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#167    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#168    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#169    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#170    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#171    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#172    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#173    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#174    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#175    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#176    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#177    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#178    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#179    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:105:11)
+#180    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#181    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#182    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#183    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#184    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#185    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#186    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#187    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#188    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#189    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:105:11)
+#190    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#191    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#192    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#193    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#194    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#195    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#196    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#197    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#198    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#199    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#200    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#201    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#202    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#203    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#204    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#205    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#206    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#207    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#208    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#209    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#210    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#211    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#216    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2895:19)
+#217    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:984:21)
+#218    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:457:5)
+#219    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1325:15)
+#220    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1255:9)
+#221    SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1113:5)
+#222    _invoke (dart:ui/hooks.dart:312:13)
+#223    PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:383:5)
+#224    _drawFrame (dart:ui/hooks.dart:283:31)
+
+The MainProvider sending notification was:
+  Instance of 'MainProvider'
+═════════════════════════════════════════════════════════════════
